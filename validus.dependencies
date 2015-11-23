@@ -10,7 +10,7 @@
    "branch": "6.0"
  },
  {
-   "repository": "Cyanogenmod/android_device_qcom_common",
+   "repository": "Cyanogenmod/device_qcom_common",
    "target_path": "device/qcom/common",
    "branch": "cm-13.0"
  }
