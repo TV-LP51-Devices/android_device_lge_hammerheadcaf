@@ -5,9 +5,9 @@
    "branch": "cm-13.0"
  },
  {
-   "repository": "Cyanogenmod/android_kernel_lge_hammerhead",
+   "repository": "TV-LP51-Devices/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch": "cm-13.0-caf"
+   "branch": "6.0"
  },
  {
    "repository": "Cyanogenmod/android_device_qcom_common",
