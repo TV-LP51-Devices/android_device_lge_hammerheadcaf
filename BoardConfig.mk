@@ -20,6 +20,16 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 
+# Validus additions
+BLOCK_BASED_OTA=false
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
+
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+
 TARGET_NO_BOOTLOADER := true
 
 BOARD_KERNEL_BASE := 0x00000000
